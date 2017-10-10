@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/matt-dobie/url-shortener-microservice#readme",
   "dependencies": {
-    "express": "^4.16.2"
+    "express": "^4.16.2",
+    "is-url": "^1.2.2",
+    "mongodb": "^2.2.31"
   }
 }
