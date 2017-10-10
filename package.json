@@ -6,8 +6,16 @@
   "scripts": {
     "start": "node app.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matt-dobie/url-shortener-microservice.git"
+  },
   "author": "Matthew Dobie",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matt-dobie/url-shortener-microservice/issues"
+  },
+  "homepage": "https://github.com/matt-dobie/url-shortener-microservice#readme",
   "dependencies": {
     "express": "^4.16.2"
   }
