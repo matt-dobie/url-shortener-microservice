@@ -1,0 +1,27 @@
+/*
+  Author: Matthew Dobie
+  Author URL: mattdobie.com
+  Description: Styles for URL Shortener Microservice
+*/
+.header {
+  text-align: center;
+}
+
+.top-margin {
+  margin-top: 30px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+code a {
+  text-decoration: none;
+  color: #c7254e;
+}
+
+footer {
+  margin-top: 80px;
+}

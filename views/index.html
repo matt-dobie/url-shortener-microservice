@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Matt Dobie | URL Shortener Microservice</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i">
+  <link rel="stylesheet" href="/style.min.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="header top-margin">URL Shortener Microservice</h1>
+    <h2>A freeCodeCamp API project</h2>
+    <blockquote class="blockquote top-margin">
+      User story:
+      <ul>1) I can pass a URL as a parameter and I will receive a shortened URL in the JSON response.</ul>
+      <ul>2) If I pass an invalid URL that doesn't follow the valid http://www.example.com format, the JSON response will contain an error instead.</ul>
+      <ul>3) When I visit that shortened URL, it will redirect me to my original link.</ul>
+    </blockquote>
+    <h3 class="top-margin">Example usage:</h3>
+    <code>
+      <a href="/new/https://www.google.com" target="_blank">https://fcc-url-shortener-md.glitch.me/new/https://www.google.com<br></a>
+    </code>
+    <h3 class="top-margin">Example output:</h3>
+    <code>
+      {
+        "original_url": "https://www.google.com",
+        "short_url": "https://fcc-url-shortener-md.glitch.me/r0EEo"
+      }
+    </code>
+  </div>
+  <footer class="text-center">
+    <p>Written and coded by <a href="http://mattdobie.com" target="_blank">Matt Dobie</a></p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,14 @@
+{
+  "name": "url-shortener-microservice",
+  "version": "1.0.0",
+  "description": "An API that takes a regular URL and returns a shortened version",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Matthew Dobie",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
